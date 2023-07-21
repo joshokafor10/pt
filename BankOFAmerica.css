@@ -46,7 +46,8 @@
     border: 1px solid #d3d3d3;
     border-radius: 8px;
     display: flex;
-    margin-top: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .ribbon-h {
@@ -58,7 +59,7 @@
     padding: 0 40px 0 0px;
     font-size: 18px;
     background: #0074cd;
-    color: #000;
+    color: #fff;
     box-sizing: border-box;
     font-weight: 600;
     /* font-family: serif; */
@@ -67,7 +68,7 @@
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     margin-bottom: 1rem;
-    padding-left: 20px;
+    margin-left: 19px;
   }
   .ribbon-h::after {
     position: absolute;
@@ -94,10 +95,12 @@
   }
   .purchase_box {
     width: 33%;
-    background-color: #ffed00;
+    background-color: #0074cd;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
   }
 
   .offer_box h2 {
@@ -127,7 +130,7 @@
     font-weight: 600;
     line-height: 1.5;
     padding-right: 20px;
-    color: #000;
+    color: #fff;
   }
   hr {
     margin: 12px 0;
@@ -164,7 +167,7 @@
       padding: 1rem;
     }
     .ribbon-h {
-      margin-left: -11px;
+      margin-left: 19px;
       margin-top: 1rem;
     }
 }
